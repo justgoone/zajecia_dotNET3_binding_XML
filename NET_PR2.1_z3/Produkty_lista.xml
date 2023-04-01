@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Produkty>
+  <Produkt Kategoria="Słodycze">
+    <Nazwa>Chałwa</Nazwa>
+    <Cena>4</Cena>
+    <KrajPochodzenia>Polska</KrajPochodzenia>
+  </Produkt>
+  <Produkt Kategoria="Słodycze">
+    <Nazwa>Lukrecja</Nazwa>
+    <Cena>5</Cena>
+    <KrajPochodzenia>Finlandia</KrajPochodzenia>
+  </Produkt>
+  <Produkt Kategoria="Warzywa">
+    <Nazwa>Sałata</Nazwa>
+    <Cena>6</Cena>
+    <KrajPochodzenia>Holandia</KrajPochodzenia>
+  </Produkt>
+  <Produkt Kategoria="Warzywa">
+    <Nazwa>Ogórek</Nazwa>
+    <Cena>8</Cena>
+    <KrajPochodzenia>Niemcy</KrajPochodzenia>
+  </Produkt>
+  <Produkt Kategoria="Warzywa">
+    <Nazwa>Kapusta</Nazwa>
+    <Cena>9</Cena>
+    <KrajPochodzenia>Chiny</KrajPochodzenia>
+  </Produkt>
+  <Produkt Kategoria="Napoje">
+    <Nazwa>Kola</Nazwa>
+    <Cena>15</Cena>
+    <KrajPochodzenia>USA</KrajPochodzenia>
+  </Produkt>
+</Produkty>

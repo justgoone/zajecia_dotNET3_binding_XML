@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Kategorie>
+  <Kategoria>
+    <Nazwa>Słodycze</Nazwa>
+    <Produkty>
+      <Produkt>
+        <Nazwa>Chałwa</Nazwa>
+        <Cena>4</Cena>
+        <KrajPochodzenia>Polska</KrajPochodzenia>
+      </Produkt>
+      <Produkt>
+        <Nazwa>Lukrecja</Nazwa>
+        <Cena>5</Cena>
+        <KrajPochodzenia>Finlandia</KrajPochodzenia>
+      </Produkt>
+    </Produkty>
+  </Kategoria>
+</Kategorie>
