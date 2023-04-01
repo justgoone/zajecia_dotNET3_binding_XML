@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:zajecia_dotNET3"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <XmlDataProvider
+             x:Key="ProduktyDane"
+             Source="Produkty.xml"
+             XPath="Produkty/Kategoria[@Nazwa='Warzywa']"
+             />
     </Application.Resources>
 </Application>
