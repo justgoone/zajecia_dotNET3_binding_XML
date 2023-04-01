@@ -10,17 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
 
 namespace NET_PR2._1_z3;
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// Logika interakcji dla klasy KategorieWidok.xaml
 /// </summary>
-public partial class MainWindow : Window
+public partial class KategorieWidok : Window
 {
-	public MainWindow()
+	ListBox lista;
+	public KategorieWidok()
 	{
 		InitializeComponent();
+		lista = (ListBox)FindName("Kategorie");
 	}
+
+	private void WidokWybranejKategorii(object sender, RoutedEventArgs e)
+	{
+		XmlElement wybrana = (XmlElement)lista.SelectedItem;
+		new KategoriaWidok(wybrana)
+			.Show();
+    }
 }
