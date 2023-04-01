@@ -13,7 +13,30 @@
     FontSize="20"
     >
     <Grid>
-        <ListBox>
+        <DataGrid
+            ItemsSource="{Binding
+                Source={StaticResource ProduktyDane},
+                XPath=Produkt
+                }"
+            AutoGenerateColumns="False"
+            >
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="Nazwa"
+                    Binding="{Binding XPath=Nazwa}"
+                    />
+                <DataGridTextColumn
+                    Header="Cena (zł)"
+                    Binding="{Binding XPath=Cena}"
+                    />
+                <DataGridTextColumn
+                    Header="Kraj pochodzenia"
+                    Binding="{Binding XPath=KrajPochodzenia}"
+                    />
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <!--<ListBox>
             <ListBox.ItemsSource>
                 <Binding
                     Source="{StaticResource ProduktyDane}"
@@ -34,5 +57,6 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        -->
     </Grid>
 </Window>
