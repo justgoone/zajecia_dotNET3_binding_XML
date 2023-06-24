@@ -124,4 +124,51 @@
 			</Pojazd>
 		</Podkategoria>
 	</Kategoria>
+	<Kategoria
+		Nazwa="Łodzie"
+		Opis="Pojazdy służące do przemieszczania się po wodzie"
+	  >
+		<Podkategoria
+			Nazwa="Barracuda"
+			Opis="Luksusowe łodzie rekreacyjne"
+			DataPowstania="2013"
+			MacierzystyKoncern="Hiszpania">
+			<Pojazd>
+				<Nazwa>245 Extended Cockpit DCR Dual Console Runabout</Nazwa>
+				<RokProdukcji>2024</RokProdukcji>
+				<Napęd>Tył</Napęd>
+				<Silnik>V8</Silnik>
+			</Pojazd>
+			<Pojazd>
+				<Nazwa>188 CCO</Nazwa>
+				<RokProdukcji>2021</RokProdukcji>
+				<Napęd>Tył</Napęd>
+				<Silnik>V12</Silnik>
+			</Pojazd>
+		</Podkategoria>
+		<Podkategoria
+			Nazwa="Gala"
+			Opis="Szybkie łodzie uniwersalne"
+			DataPowstania="1999"
+			MacierzystyKoncern="Francja">
+			<Pojazd>
+				<Nazwa>ATLANTIS A450L</Nazwa>
+				<RokProdukcji>2005</RokProdukcji>
+				<Napęd>Tył</Napęd>
+				<Silnik>I4</Silnik>
+			</Pojazd>
+			<Pojazd>
+				<Nazwa>A450L</Nazwa>
+				<RokProdukcji>2007</RokProdukcji>
+				<Napęd>Tył</Napęd>
+				<Silnik>V6</Silnik>
+			</Pojazd>
+			<Pojazd>
+				<Nazwa>V500</Nazwa>
+				<RokProdukcji>2016</RokProdukcji>
+				<Napęd>Tył</Napęd>
+				<Silnik>V8</Silnik>
+			</Pojazd>
+		</Podkategoria>
+	</Kategoria>
 </TypyPojazdu>
