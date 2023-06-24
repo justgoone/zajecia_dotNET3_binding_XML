@@ -9,7 +9,7 @@
         <XmlDataProvider
              x:Key="ProduktyDane"
              Source="Produkty.xml"
-             XPath="Produkty"
+             XPath="TypyPojazdu"
              />
     </Application.Resources>
 </Application>

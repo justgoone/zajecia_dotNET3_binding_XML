@@ -14,7 +14,7 @@
     >
     <Grid>
         <DataGrid
-            ItemsSource="{Binding XPath=Produkt}"
+            ItemsSource="{Binding XPath=Pojazd}"
             AutoGenerateColumns="False"
             >
             <DataGrid.Columns>
@@ -23,12 +23,16 @@
                     Binding="{Binding XPath=Nazwa}"
                     />
                 <DataGridTextColumn
-                    Header="Cena (zł)"
-                    Binding="{Binding XPath=Cena}"
+                    Header="Rok Produkcji"
+                    Binding="{Binding XPath=RokProdukcji}"
                     />
                 <DataGridTextColumn
-                    Header="Kraj pochodzenia"
-                    Binding="{Binding XPath=KrajPochodzenia}"
+                    Header="Napęd"
+                    Binding="{Binding XPath=Napęd}"
+                    />
+                <DataGridTextColumn
+                    Header="Silnik"
+                    Binding="{Binding XPath=Silnik}"
                     />
             </DataGrid.Columns>
         </DataGrid>

@@ -20,9 +20,9 @@ namespace NET_PR2._1_z3;
 /// </summary>
 public partial class KategoriaWidok : Window
 {
-	public KategoriaWidok(XmlElement kategoria)
+	public KategoriaWidok(XmlElement podkategoria)
 	{
-		DataContext = kategoria;
+		DataContext = podkategoria;
 		InitializeComponent();
 	}
 }

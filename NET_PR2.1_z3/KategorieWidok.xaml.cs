@@ -29,7 +29,7 @@ public partial class KategorieWidok : Window
 	private void WidokWybranejKategorii(object sender, RoutedEventArgs e)
 	{
 		XmlElement wybrana = (XmlElement)lista.SelectedItem;
-		new KategoriaWidok(wybrana)
+		new MarkiPojazdów(wybrana)
 			.Show();
     }
 }
